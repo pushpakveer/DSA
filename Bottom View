@@ -1,0 +1,50 @@
+void bottom_view(node* root,vector<int>&ans){
+
+  if(root==NULL){
+   return;
+  }
+
+  map<int,int>mp;
+  queue<pair<node*,int>>q;
+  q.push({root,0});
+  while(!q.empty()){
+
+   auto it=q.front();
+   q.pop();
+   node * nw=it.first;
+   int line=it.second;
+   mp[line]=nw->data;
+   if(nw->left!=NULL){
+      q.push({nw->left,line-1});
+   }
+   if(nw->right!=NULL){
+      q.push({nw->right,line+1});
+   }
+
+  }
+  for(auto it:mp){
+   ans.push_back(it.second);
+  }
+
+
+}
+
+int main(){
+   
+struct node *root= new node(1);
+root->left=new node(2);
+root->right=new node(3);
+root->left->left=new node(4);
+root->left->right=new node(5);
+root->left->right->left=new node(6);
+vector<int>ans;
+//postorder(root);
+//levelorder(root);
+bottom_view(root,ans);
+for(int i=0;i<ans.size();i++){
+   cout<<ans[i]<<" ";
+}
+cout<<endl;
+
+   return 0;
+}
