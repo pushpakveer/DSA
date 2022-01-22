@@ -12,3 +12,5 @@
 
 3)Top and Bottom View of Binary Tree.
 
+4)Vertical traversal of Binary Tree.
+
