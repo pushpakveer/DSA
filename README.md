@@ -14,3 +14,5 @@
 
 4)Vertical traversal of Binary Tree.
 
+5)Diameter of Binary Tree.
+
