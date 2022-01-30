@@ -16,3 +16,7 @@
 
 5)Diameter of Binary Tree.
 
+6)Check if Binary Tree is Height balance or not. 
+
+7)Root to node path in a Binary Tree.
+
