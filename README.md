@@ -24,3 +24,5 @@
 
 9)Lowest common ancestor.
 
+10)Zig Zag Traversal.
+
