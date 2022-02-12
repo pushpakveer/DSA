@@ -29,7 +29,7 @@
 11)Boundary Traversal.
 
 
-#Binary Search Tree
+## Binary Search Tree
 
 1)Binary search on a BST.
 
