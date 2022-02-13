@@ -8,7 +8,7 @@ int ceil(node * root,int key){
       ceil=cur->data;
       return ceil;
      }
-     if(cur->right){
+     if(key>cur->data){
       cur=cur->right;
      }
      else{
