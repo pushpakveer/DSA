@@ -33,3 +33,5 @@
 
 1)Binary search on a BST.
 
+2)CEIL OF BST.
+
