@@ -37,3 +37,5 @@
 
 3)FLOOR OF BST.
 
+4)Insert in BST.
+
