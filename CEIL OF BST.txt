@@ -1,0 +1,26 @@
+
+int ceil(node * root,int key){
+  node * cur=root;
+  ceil=-1;
+  while(cur){
+
+     if(cur->data==key){
+      ceil=cur->data;
+      return ceil;
+     }
+     if(cur->right){
+      cur=cur->right;
+     }
+     else{
+      ceil=cur->data;
+      cur=cur->left;
+     }
+
+
+
+
+  }
+  return ceil;
+
+
+}
