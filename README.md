@@ -35,3 +35,5 @@
 
 2)CEIL OF BST.
 
+3)FLOOR OF BST.
+
