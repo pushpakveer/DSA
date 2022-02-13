@@ -1,7 +1,7 @@
 
 int ceil(node * root,int key){
   node * cur=root;
-  ceil=-1;
+  int ceil=-1;
   while(cur){
 
      if(cur->data==key){
@@ -24,3 +24,6 @@ int ceil(node * root,int key){
 
 
 }
+
+
+
