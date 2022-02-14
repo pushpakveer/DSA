@@ -39,3 +39,5 @@
 
 4)Insert in BST.
 
+5)Delete in BST.
+
