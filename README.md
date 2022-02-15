@@ -41,3 +41,5 @@
 
 5)Delete in BST.
 
+6)Kth Smallest/Largest Element in a BST.
+
