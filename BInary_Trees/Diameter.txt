@@ -1,0 +1,23 @@
+int diameter(node * root ,int &d){
+
+    if(root==NULL){
+      return 0;
+    }
+   
+    int lht=diameter(root->left,d);
+    int rht=diameter(root->right,d);
+   
+    d=max(lht+rht,d);
+   
+    return 1+max(lht,rht);
+   
+   }
+
+   int main()
+   {
+   int d=0;
+   cout<<diameter(root,d)<<endl;
+   cout<<"Diameter is"<<d<<endl;
+   
+      return 0;
+   }
