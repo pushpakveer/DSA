@@ -43,3 +43,5 @@
 
 6)Kth Smallest/Largest Element in a BST.
 
+7)Find a pair with a given sum in BST.
+
