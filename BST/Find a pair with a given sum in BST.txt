@@ -1,0 +1,36 @@
+// brute force approach
+
+ bool findTarget(TreeNode* root, int k) {
+        vector<int>ans;
+        inorder(root,ans);
+        bool s=false;
+        for(int i=0;i<ans.size()-1;i++){
+            for(int j=i+1;j<ans.size();j++){
+                  if(ans[i]+ans[j]==k){
+                s=true;
+               break;
+            } 
+            }
+            if(s==true){
+                break;
+            }
+         
+        }
+        return s;
+        
+    }
+    
+    
+    void inorder(TreeNode* root,vector<int>&ans){
+        if(root==NULL){
+            return ;
+        }
+        
+        
+        
+        inorder(root->left,ans);
+        ans.push_back(root->val);
+        inorder(root->right,ans);
+        
+        
+    }
