@@ -45,3 +45,5 @@
 
 7)Find a pair with a given sum in BST.
 
+8)Validate Binary Search Tree.
+
