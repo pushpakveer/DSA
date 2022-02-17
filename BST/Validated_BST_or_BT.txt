@@ -1,0 +1,28 @@
+  
+  Not optimal causing O(N) time complexity and O(N) space complexity better approach would be recursive 
+   
+   bool isValidBST(TreeNode* root) {
+        vector<int>ans;
+        inorder(root,ans);
+        bool s= true;
+        for(int i=0;i<ans.size()-1;i++){
+            if(ans[i]>=ans[i+1]){
+                s=false;
+                break;
+            }
+        }
+        
+        
+      return s;  
+    }
+
+
+   void inorder(TreeNode* root,vector<int>&ans){
+       if(root==NULL){
+           return ;
+       }
+       inorder(root->left,ans);
+       ans.push_back(root->val);
+       inorder(root->right,ans);
+       
+   }
