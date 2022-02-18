@@ -1,0 +1,33 @@
+
+we can do with inorder traversal then binary search or linear search.
+Optimized approach:O(H)TC and O(1)space complexity
+
+Initialize:sucessor=NULL;
+
+while(root!=NULL){
+  if(root->val=<key){
+    root=root->right; 
+  }
+  else{
+        succesor=root->val;
+        root=root->left;
+  }
+
+}
+
+return succesor;
+
+
+
+Initialize:predecessor=NULL
+while(root!=NULL){
+  if(root->val=>key){
+    root=root->left;
+  }
+  else{predecessor=root->val;
+    root=root->right;
+
+  }
+}
+
+return predecessor;
