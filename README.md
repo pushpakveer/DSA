@@ -49,3 +49,5 @@
 
 9)Predecessor/Sucessor of particualar node value in BST.
 
+10)BST from keys.
+
