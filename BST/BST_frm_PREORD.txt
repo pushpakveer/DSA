@@ -1,0 +1,21 @@
+ // We can directly make BST taking root aas first element of preorder array.
+ BUT TC will be O(N*N)..
+ 
+ 
+ //this is the optimal way as it is takin O(3N) eqi to O(N) TC.
+
+
+ TreeNode* bstFromPreorder(vector<int>& V) {
+        int i=0;
+        return built(V,i,INT_MAX);
+    }
+    
+    TreeNode* built(vector<int>&V,int &i,int bound){
+        if(i==V.size() || V[i]>bound){
+           return NULL; 
+        }
+        TreeNode* root=new TreeNode(V[i++]);
+        root->left=built(V,i,root->val);
+        root->right=built(V,i,bound);
+        return root;
+    }
