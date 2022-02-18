@@ -1,0 +1,23 @@
+   TreeNode* sortedArrayToBST(vector<int>& nums) {
+       return binarysearch(nums,0,nums.size()-1); 
+    }
+    
+   TreeNode* binarysearch(vector<int>&nums,int low,int high){
+          // if(low==high){
+          //     return NULL;
+          // }
+       if(low>high){
+           return NULL;
+       }
+       int mid=(low+high)/2;
+        TreeNode *root=new TreeNode(nums[mid]);
+        
+        root->left=binarysearch(nums,low,mid-1);
+        root->right=binarysearch(nums,mid+1,high);
+        return root;
+        
+        
+        
+        
+    }
+    
