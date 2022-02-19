@@ -1,0 +1,30 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int minimum_cash(int a[],int cash){
+  sort(a,a+9,greater<int>());
+  int count=0;
+  for(int i=0;i<9;i++){
+    if(cash>=a[i]){
+    count+=cash/a[i];
+   cash=cash%a[i];
+  }
+
+  }
+
+return count;
+
+}
+
+
+
+int main(){
+
+int a[]={1,2,5,10,20,50,100,500,1000};
+int cash=250;
+cout<<minimum_cash(a,cash)<<endl;
+
+
+
+  return 0;
+}
