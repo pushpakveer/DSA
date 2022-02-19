@@ -57,3 +57,5 @@
 ## Greedy
 
 1)Minimum-Coin.
+
+2)N meetings in the room.
