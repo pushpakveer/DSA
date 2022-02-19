@@ -53,3 +53,7 @@
 
 11)BST from preorder traversal.
 
+
+## Greedy
+
+1)Minimum-Coin.
