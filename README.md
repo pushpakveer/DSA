@@ -59,3 +59,5 @@
 1)Minimum-Coin.
 
 2)N meetings in the room.
+
+3)Minimum Platforms.
