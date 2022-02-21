@@ -1,3 +1,8 @@
+
+//TC->O(2logN)+O(N).    2LogN=sorting 2 arrays ,  and loop over array O(N).
+//SC->O(1)
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
