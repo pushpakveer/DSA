@@ -63,3 +63,5 @@
 3)Minimum Platforms.
 
 4)Job Sequencing.
+
+5)Knapsack Problem.
