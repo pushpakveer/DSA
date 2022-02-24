@@ -65,3 +65,7 @@
 4)Job Sequencing.
 
 5)Knapsack Problem.
+
+## Graph
+
+1)Representation in adjacency list.
