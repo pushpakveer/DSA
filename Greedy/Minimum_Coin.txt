@@ -1,3 +1,6 @@
+//Note:- This may not work for condition where denominations are 1,6,5,9--->bec 6+5>9 hence....
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
