@@ -75,3 +75,5 @@
 3)DFS on graph.
 
 4)Cycle detection in graph using BFS.
+
+5)Cycle detection in graph using DFS.
