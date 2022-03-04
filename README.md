@@ -78,4 +78,6 @@
 
 5)Cycle detection in graph using DFS.
 
-6)Cycle detection in directed graph  using DFS. 
+6)Cycle detection in directed graph  using DFS.
+
+7)Topological Sort using BFS. 
