@@ -1,9 +1,7 @@
-# MOTTO
+# DSA
 
-1)It contains all the dsa problem solved.
+1)Topics wise standard DSA problems.
 
-
-2)Regularity of solving atleast 1 problem of DSA daily.
 
 
 ## Two Pointer Technique
