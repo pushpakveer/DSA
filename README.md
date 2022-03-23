@@ -1,6 +1,6 @@
 # DSA
 
-1)Topics wise standard DSA problems.
+1)Topic wise standard DSA problems.
 
 
 
