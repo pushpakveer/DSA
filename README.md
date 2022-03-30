@@ -73,6 +73,8 @@
 
 5)Knapsack Problem.
 
+6)Best Time to Buy and Sell Stock.
+
 ## Graph
 
 1)Representation in adjacency list.
