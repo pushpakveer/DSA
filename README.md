@@ -12,6 +12,11 @@
 
 3)4SUM
 
+
+## Sliding Window Technique
+
+1)First Negative Number in every Window of Size K.
+
 ##  BINARY TREE
 1)Traversals on Tree(Pre,Post,In)
 
