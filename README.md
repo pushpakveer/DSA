@@ -17,6 +17,8 @@
 
 1)First Negative Number in every Window of Size K.
 
+2)Anagram in window size.
+
 ##  BINARY TREE
 1)Traversals on Tree(Pre,Post,In)
 
